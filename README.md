@@ -39,24 +39,22 @@ To make website i used randomization to calculate love score .
 ### What I learned
 
 ```js
-function result()
-{
-  //formula of love score
-  var num = Math.floor(Math.random()*100)+1;
-  var per = document.querySelector(".percentage");
-  per.innerHTML = num;
-  var sentence = document.querySelector(".message");
-  if (num>=80){
-   sentence.innerHTML = "made for each other";
-  }
-  else if (num<80 && num>=60){
-    sentence.innerHTML = "Love each other to make it 100%";
-  }
-  else if (num<60 && num>=30){
-    sentence.innerHTML = "Try harder!!!";
-  }
   else{
-    sentence.innerHTML = "Bad Luck in Love life";
+    //formula of love score
+    var num = Math.floor(Math.random()*100)+1;
+    document.querySelector(".percentage").innerHTML = num;
+    if (num>=80){
+     sentence.innerHTML = "made for each other";
+    }
+    else if (num<80 && num>=60){
+      sentence.innerHTML = "Love each other to make it 100%";
+    }
+    else if (num<60 && num>=30){
+      sentence.innerHTML = "Try harder!!!";
+    }
+    else{
+      sentence.innerHTML = "Bad Luck in Love life";
+    }
   }
 
 ```
