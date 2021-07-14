@@ -2,16 +2,15 @@
 document.getElementById("bottom-container").style.display = "none";
 
 //on clicking button
-function result(){ 
-  var sentence = document.querySelector(".message");
-  
+function result(){
+
   if ((document.querySelector(".input1").value === "")||(document.querySelector(".input2").value === "")){
-    sentence.innerHTML="Invalid inputs!!!";
-    document.querySelector(".percentage").innerHTML = "VVVV";
+    alert("Invalid inputs!!!")
   }
 
   else{
     //formula of love score
+    var sentence = document.querySelector(".message");
     var num = Math.floor(Math.random()*100)+1;
     document.querySelector(".percentage").innerHTML = num;
     if (num>=80){
@@ -26,12 +25,12 @@ function result(){
     else{
       sentence.innerHTML = "Bad Luck in Love life";
     }
+
+    //result will direct to bottom container
+    location.href="#bottom-container";
+    document.getElementById("bottom-container").style.display = "block";
   }
-
-  //result will direct to bottom container
-  location.href="#bottom-container";
-  document.getElementById("bottom-container").style.display = "block";
-
+  
   //clearing the input
   document.querySelector(".input1").value = "";
   document.querySelector(".input2").value = "";
