@@ -17,14 +17,15 @@ This is a fun project . Totally based on randomization !!!
 Love Calculator : Based on Randomization , calculate love score in percentage ( % ) & get the message.
 
 ### Screenshot
-
-![Desktop](./ss.png)
-![Mobile](./mobile.png)
+## desktop
+![Desktop](./screenshot/dekstop.png)
+## mobile
+![Mobile](./screenshot/mobile.png)
 
 ### Links
 
 - Solution URL: [https://github.com/mansi05041/love_calculator]
-- Live Site URL: [https://mansi05041.github.io/love_calculator/]
+- Live Site URL: [https://love-calculator-amber.vercel.app/]
 
 ## My process
 
