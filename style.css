@@ -12,6 +12,7 @@
   --maroon: #751212;
   --main-font: 'Merriweather';
   --secondary-font: 'Dancing Script';
+  --author-font :'Fuggles', 'cursive';
 }
 
 html, body {
@@ -154,6 +155,12 @@ footer {
   color: var(--white);
   padding: 3% 7%;
   font-family: var(--main-font);
+}
+
+.author{
+  font-family: var(--author-font);
+  font-weight: 700;
+  font-size: 3.5rem;
 }
 
 .author:hover{
