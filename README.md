@@ -18,7 +18,7 @@ Love Calculator : Based on Randomization , calculate love score in percentage ( 
 
 ### Screenshot
 ## desktop
-![Desktop](./screenshot/dekstop.png)
+![Desktop](./screenshot/desktop.png)
 ## mobile
 ![Mobile](./screenshot/mobile.png)
 
